@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Art Acii"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="
+        / \\__\n
+      (    @\\___\n
+      /              O\n
+     /     (_____/\n
+    /_____/    U\n
+"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="(\\/)\n(°,,,°)\n(\\/)"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="
+                .' '.            __         \n
+       .        .   .           (__\_       \n
+        .         .         . -{{_(|8)      \n
+          ' .  . ' ' .  . '     (__         \n"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+</LinearLayout>
